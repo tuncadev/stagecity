@@ -10,6 +10,9 @@
 /wp-*.php
 /xmlrpc.php
 
+# Fonts 
+/wp-content/fonts
+
 # Configuration
 wp-config.php
 

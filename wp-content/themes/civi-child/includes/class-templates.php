@@ -307,7 +307,9 @@ if (!class_exists("Civi_Templates")) {
 				"candidate_logout" => '',
 				];
 		
-			$language = pll_current_language( 'slug' );
+			if( function_exists('pll_current_language')) {
+ 					$language = pll_current_language( 'slug' );
+				} 
 			$show_login = Civi_Helper::get_setting("show_login");
 
 			if (
@@ -465,7 +467,9 @@ if (!class_exists("Civi_Templates")) {
 														'"/>';
 												}
 											}
-											$language = pll_current_language( 'slug' );
+											if( function_exists('pll_current_language')) {
+ 					$language = pll_current_language( 'slug' );
+				} 
 										
 										?>
 											<?php if($key != "my_favorites") { ?>

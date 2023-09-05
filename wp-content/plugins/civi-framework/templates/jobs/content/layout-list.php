@@ -9,7 +9,9 @@ $id = get_the_ID();
 if (!empty($jobs_id)) {
     $id = $jobs_id;
 }
-$language = pll_current_language( 'slug' );
+if( function_exists('pll_current_language')) {
+ 					$language = pll_current_language( 'slug' );
+				} 
 $jobs_meta_data = get_post_custom($id);
 $jobs_type = get_the_terms($jobs_id, 'jobs-type');
 $jobs_location = get_the_terms($jobs_id, 'jobs-location');

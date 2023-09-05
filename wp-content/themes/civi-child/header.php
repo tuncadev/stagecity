@@ -30,8 +30,12 @@
 	
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
-<?php $language = pll_current_language( 'slug' );
-	if($language != "") { ?>
+	<?php if( function_exists('pll_current_language')) {
+ 					if( function_exists('pll_current_language')) {
+ 					$language = pll_current_language( 'slug' );
+				} 
+				} 
+				if($language != "") { ?>
 	<script>
 		var userLocale = "tr";
 	</script>

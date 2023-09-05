@@ -31,7 +31,9 @@ $args = array(
 );
 $related  = get_posts($args);
 $wp_query  = new WP_Query($args);
-$language = pll_current_language( 'slug' );
+if( function_exists('pll_current_language')) {
+ 					$language = pll_current_language( 'slug' );
+				} 
 ?>
 
 <?php if ($enable_single_company_related && !empty($related)) : ?>

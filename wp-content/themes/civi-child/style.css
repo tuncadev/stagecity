@@ -110,6 +110,48 @@ button#civi_select_avatar {
   font-weight: 600;
   color: #d63638; }
 
+.candidate-head-details.sidebaravatar .civi-candidate-header-top .image-candidates {
+  width: 200px;
+  height: 200px;
+  margin: 15px auto; }
+
+.candidate-head-details.sidebaravatar .civi-candidate-header-top {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
+.candidate-head-details.sidebaravatar .civi-candidate-header-top h1 {
+  text-transform: uppercase;
+  font-size: 21px;
+  padding: 3px 5px 	3px 5px;
+  font-weight: 600; }
+
+.candidate-sidebar .candidate-single-field {
+  margin-top: 0px; }
+
+.candidate-head-details.sidebaravatar .wishlist_wrapper {
+  margin: 15px auto; }
+
+.block-archive-inner.candidate-single-field.skills-aboutme.sidebarskills {
+  padding: 32px 10px;
+  text-align: center;
+  margin-top: 16px; }
+
+.candidate-single-field .info p.title-info {
+  font-weight: 700;
+  margin-bottom: 0px; }
+
+.candidate-single-field .info .list-cate {
+  margin-bottom: 10px; }
+
+.infocontent .info {
+  max-height: 70px;
+  display: block; }
+
+.candidate-single-field .infocontent {
+  display: flex;
+  justify-content: space-between; }
+
 @media screen and (max-width: 490px) {
   .archive-layout .archive-filter-top .form-group:last-child {
     border: none;
@@ -398,6 +440,12 @@ form#new_project label {
   padding-top: 20px;
   padding-bottom: 30px; }
 
+/* media */
+@media only screen and (max-width: 991px) {
+  .main-content .site-layout.has-sidebar {
+    display: flex;
+    flex-direction: column-reverse; } }
+
 /* Candidate Main */
 /* Search box */
 input#candidate_filter_search {
@@ -539,6 +587,9 @@ input#jobs_filter_search {
 .wishlist_wrapper {
   display: flex;
   margin-left: auto; }
+
+.site-layout.has-sidebar {
+  flex-direction: row-reverse; }
 
 /* Home  */
 /* Home Tabs */

@@ -864,6 +864,8 @@ span.soundcloud {
 
 /* Mobile */
 @media only screen and (max-width: 415px) {
+  .single-candidate-area .block-candidate-warrper .block-archive-top {
+    margin-top: 15px; }
   .cat_container {
     max-width: 90% !important;
     margin: auto !important; }

@@ -13,6 +13,8 @@
 <html <?php language_attributes(); ?>>
 
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
 	<script src="https://kit.fontawesome.com/d4521e1f6c.js" crossorigin="anonymous"></script>	
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">

@@ -124,7 +124,8 @@ button#civi_select_avatar {
   text-transform: uppercase;
   font-size: 21px;
   padding: 3px 5px 	3px 5px;
-  font-weight: 600; }
+  font-weight: 600;
+  text-align: center; }
 
 .candidate-sidebar .candidate-single-field {
   margin-top: 0px; }
@@ -151,6 +152,17 @@ button#civi_select_avatar {
 .candidate-single-field .infocontent {
   display: flex;
   justify-content: space-between; }
+
+.candidate-head-details .candidate-warpper i {
+  color: var(--civi-color-accent); }
+
+.candidate-sidebar .candidate-single-field {
+  border: 1px solid #f9f9f9;
+  box-shadow: 1px 2px 3px #b5b5b5; }
+
+.single-candidate-area .block-candidate-warrper .block-archive-top {
+  border: 1px solid #f9f9f9;
+  box-shadow: 1px 2px 3px #b5b5b5; }
 
 @media screen and (max-width: 490px) {
   .archive-layout .archive-filter-top .form-group:last-child {

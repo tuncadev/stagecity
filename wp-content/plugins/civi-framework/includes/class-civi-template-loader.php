@@ -107,7 +107,7 @@ if (!class_exists('Civi_Template_Loader')) {
 
 			wp_register_script('lightgallery', CIVI_PLUGIN_URL . 'assets/libs/lightgallery/js/lightgallery.min.js', array('jquery'), false, false);
 
-			wp_register_script('lightgallery', CIVI_PLUGIN_URL . 'assets/libs/lightgallery/js/lightgallery.min.js', array('jquery'), false, false);
+			wp_register_script('newgallery', CIVI_PLUGIN_URL . 'assets/libs/newgallery/js/main.js', array('jquery'), true, true);
 			
 			wp_register_script('lightboxgallery', CIVI_PLUGIN_URL . 'assets/libs/lightboxgallery/js/lightboxgallery.min.js', array('jquery'), false, false);
 
@@ -385,6 +385,8 @@ if (!class_exists('Civi_Template_Loader')) {
             wp_register_style(CIVI_PLUGIN_PREFIX . 'select2', CIVI_PLUGIN_URL . 'assets/scss/loop/libs/select2.min.css', array(), '4.0.13', 'all');
 
             wp_register_style('lightgallery', CIVI_PLUGIN_URL . 'assets/libs/lightgallery/css/lightgallery.min.css', array(), false, 'all');
+
+						wp_register_style('newgallery', CIVI_PLUGIN_URL . 'assets/libs/newgallery/css/style.css', array(), true, 'all');
 
 						wp_register_style('lightboxgallery', CIVI_PLUGIN_URL . 'assets/libs/lightboxgallery/css/lightboxgallery.min.css', array(), false, 'all');
 						wp_register_style('lightboxgallery_style', CIVI_PLUGIN_URL . 'assets/libs/lightboxgallery/css/style.css', array(), false, 'all');

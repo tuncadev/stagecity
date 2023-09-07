@@ -31,6 +31,7 @@ img {
 	border-bottom: 1px solid #ccc;
 	position: relative;
 	z-index: 1;
+	text-align: center;
 }
 .blogBox .item img {
 	width: 100%;
